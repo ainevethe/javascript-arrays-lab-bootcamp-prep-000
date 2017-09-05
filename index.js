@@ -26,3 +26,8 @@ function appendKitten(name) {
   var newarray = [...kittens, name]
   return newarray
 }
+
+function prependKitte(name) {
+  var newarray = [name, ...kittens]
+  return newarray
+}
