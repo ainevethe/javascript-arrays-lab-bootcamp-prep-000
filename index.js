@@ -33,6 +33,6 @@ function prependKitten(name) {
 }
 
 function removeLastKitten() {
-  var newarray = [kittens(-1)]
+  var newarray = [(-1)]
   return newarray
 }
